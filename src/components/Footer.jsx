@@ -37,6 +37,7 @@ function Footer() {
 
             <a
               href="https://github.com/gabrielgatimu"
+              target="blank"
               className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
             >
               <svg
