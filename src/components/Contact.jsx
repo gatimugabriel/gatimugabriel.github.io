@@ -1,12 +1,6 @@
 import Title from "./Title";
 
 function Contact() {
-  // const handleSubmit = () => {
-  //   fetch("https://getform.io/f/194f316b-47d1-44db-942e-90cec1859e56", {
-  //     method: "POST",
-  //   });
-  // };
-
   return (
     <div className="flex flex-col mb-10 mx-auto">
       <div className="flex justify-center items-center">
@@ -21,6 +15,7 @@ function Contact() {
             name="name"
             placeholder="name"
             className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
+            required
           />
           <input
             type="text"
@@ -28,6 +23,7 @@ function Contact() {
             placeholder="Email"
             className="my-2 p-2 bg-transparent border-2 rounded-md 
             focus:outline-none"
+            required
           />
           <textarea
             name="message"
@@ -35,12 +31,12 @@ function Contact() {
             rows="10"
             className="p-2 mb-4 bg-transparent border-2 rounded-md
             focus:outline-none"
+            required
           />
           <button
             type="submit"
             className="text-center inline-block 
           px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r hover:bg-gradient-to-l from-yellow-500 to-pink-500 drop-shadow-md "
-            // onClick={handleSubmit}
           >
             Work with me
           </button>
