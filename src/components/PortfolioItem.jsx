@@ -1,3 +1,5 @@
+
+// eslint-disable-next-line react/prop-types
 function PortfolioItem({ title, imgUrl, type, stack, link }) {
   return (
     <div className="border-2 border-stone-900 rounded-md overflow-hidden">
