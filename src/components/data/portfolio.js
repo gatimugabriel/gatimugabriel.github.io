@@ -1,5 +1,13 @@
 export default [
   {
+    id: 6,
+    title: "Job Board App",
+    imgUrl: "/assets/job-board.png",
+    type: "web app",
+    stack: ["React", "Redux-Toolkit", "Tailwind", "ExpressJs", "PostgreSql"],
+    link: "https://jobboard-bygabu.netlify.app/",
+  },
+  {
     id: 1,
     title: "Article Summarizer App",
     imgUrl: "/assets/smz.png",
