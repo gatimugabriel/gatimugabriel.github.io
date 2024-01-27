@@ -1,5 +1,5 @@
 // eslint-disable-next-line react/prop-types
-function PortfolioItem({ title, imgUrl, type, stack, link }) {
+function PortfolioItem({ title, imgUrl, type, stack, link, origin }) {
   return (
     <a
       href={link}
@@ -16,7 +16,7 @@ function PortfolioItem({ title, imgUrl, type, stack, link }) {
         <h3 className="text-lg md:text-xl dark:text-white mb-2 md:mb-3 font-semibold">
           {title}
         </h3>
-        <p className="text-sm mb-3 md:text-base font-light">{type}</p>
+        <p className="text-sm mb-3 md:text-base font-light flex justify-between">type: {type}<span>{origin}</span></p>
         <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm dark:border-white">
           {stack.map((item) => (
             <span

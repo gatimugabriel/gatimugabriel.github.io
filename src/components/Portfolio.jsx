@@ -15,6 +15,7 @@ function Portfolio() {
             type={project.type}
             stack={project.stack}
             link={project.link}
+            origin={project.origin}
           />
         ))}
       </div>
