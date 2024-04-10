@@ -9,6 +9,15 @@ export default [
     origin: "indie"
   },
   {
+    id: 2,
+    title: "Location Tracker App",
+    imgUrl: "/assets/location-tracker.png",
+    type: "web app",
+    stack: ["React", "ExpressJs", "PostgreSql"],
+    link: "https://zidio-49-location-tracker-app.netlify.app",
+    origin: "teamwork"
+  },
+  {
     id: 1,
     title: "Article Summarizer App",
     imgUrl: "/assets/smz.png",
@@ -17,15 +26,7 @@ export default [
     link: "https://taupe-boba-bcf85f.netlify.app/",
     origin: "indie(cloned)"
   },
-  {
-    id: 2,
-    title: "Admin Dashboard",
-    imgUrl: "/assets/admin-dashboard.png",
-    type: "full-stack",
-    stack: ["React", "MUI", "Redux", "ExpressJS", "MongoDB"],
-    link: "http://github.com/gabrielgatimu/Admin-Dashboard",
-    origin: "indie"
-  },
+
   {
     id: 3,
     title: "Vet Shop",
@@ -53,13 +54,13 @@ export default [
     link: "https://fika-nd51.onrender.com/",
     origin: "teamwork"
   },
-  // {
-  //   id: 6,
-  //   title: "Teams Management App",
-  //   imgUrl: "/assets/teams.jpg",
-  //   type: "web app",
-  //   stack: ["React", "Bootstrap"],
-  //   link: "http://",
-  //   origin: "indie"
-  // },
+  {
+    id: 7,
+    title: "Admin Dashboard",
+    imgUrl: "/assets/admin-dashboard.png",
+    type: "full-stack",
+    stack: ["React", "MUI", "Redux", "ExpressJS", "MongoDB"],
+    link: "http://github.com/gabrielgatimu/Admin-Dashboard",
+    origin: "indie"
+  },
 ];
