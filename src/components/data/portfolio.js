@@ -64,3 +64,13 @@ export default [
     origin: "indie"
   },
 ];
+
+
+const extraData = [
+  {
+    zidio: `Collaborated in a team of 5 developers to create a location tracking app. 
+    I had the task to create the app's API endpoints to be consumed by the client app.
+    It was a great experience as I got to sharpen my server-side skills and concepts such as working with document database, MongoDB, API authentication, data modelling, writing high-quality code and deploying applications to production environments 
+    App link: https://zidio-49-location-tracker-app.netlify.app/`
+  }
+]
