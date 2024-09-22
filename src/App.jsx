@@ -5,6 +5,7 @@ import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import { useState } from "react";
 import { useEffect } from "react";
+import Skills from "./components/Skills.jsx";
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -113,6 +114,7 @@ function App() {
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
           <Portfolio />
+          <Skills />
           <Timeline />
           <Contact />
           <Footer />

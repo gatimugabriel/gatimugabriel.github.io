@@ -1,5 +1,14 @@
 export default [
   {
+    id: 8,
+    title: "Nouva-Vet App",
+    imgUrl: "/assets/nv-app.png",
+    type: "web app",
+    stack: ["React", "Redux-Toolkit", "Tailwind", "ExpressJs", "PostgreSql", "M-Pesa API"],
+    link: "https://nv-app.netlify.app/",
+    origin: "indie"
+  },
+  {
     id: 6,
     title: "Job Board App",
     imgUrl: "/assets/job-board.png",
@@ -33,18 +42,18 @@ export default [
     imgUrl: "/assets/vet-shop.png",
     type: "Landing page",
     stack: ["HTML5", "CSS3", "Js"],
-    link: "http://www.myvet.co.ke",
+    link: "https://www.myvet.co.ke",
     origin: "indie"
   },
-  {
-    id: 4,
-    title: "Developer Porfolio",
-    imgUrl: "/assets/portfolio.png",
-    type: "web app",
-    stack: ["React", "Tailwind", "Vite"],
-    link: "http://gabrielgatimu.github.io",
-    origin: "indie"
-  },
+  // {
+  //   id: 4,
+  //   title: "Developer Porfolio",
+  //   imgUrl: "/assets/portfolio.png",
+  //   type: "web app",
+  //   stack: ["React", "Tailwind", "Vite"],
+  //   link: "http://gabrielgatimu.github.io",
+  //   origin: "indie"
+  // },
   {
     id: 5,
     title: "Attendance checker app (Backend)",
@@ -60,7 +69,7 @@ export default [
     imgUrl: "/assets/admin-dashboard.png",
     type: "full-stack",
     stack: ["React", "MUI", "Redux", "ExpressJS", "MongoDB"],
-    link: "http://github.com/gabrielgatimu/Admin-Dashboard",
+    link: "https://github.com/gabrielgatimu/Admin-Dashboard",
     origin: "indie"
   },
 ];
