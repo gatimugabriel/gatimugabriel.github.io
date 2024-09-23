@@ -28,11 +28,11 @@ export default [
   },
   {
     id: 1,
-    title: "Article Summarizer App",
+    title: "Article & Blog Summarizer",
     imgUrl: "/assets/smz.png",
     type: "saas",
-    stack: ["React", "Redux Toolkit", "Tailwind"],
-    link: "https://taupe-boba-bcf85f.netlify.app/",
+    stack: ["React", "Redux Toolkit", "Rapid API", "Tailwind"],
+    link: "https://article-and-blog-summarizer.netlify.app/",
     origin: "indie(cloned)"
   },
 
