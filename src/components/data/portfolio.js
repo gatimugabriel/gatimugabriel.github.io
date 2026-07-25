@@ -7,7 +7,7 @@ export default [
     stack: ["React Native", "Next.js", "Supabase", "Monorepo"],
     link: "https://ushirikaapp.com",
     origin: "",
-    description: "A comprehensive church management system with a dashboard and a mobile app for members."
+    description: "A comprehensive church management & financial system with a dashboard and a mobile app for members."
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export default [
     stack: ["Next.js", "Node.js", "TypeScript", "Tailwind"],
     link: "https://mammabearapp.vercel.app",
     origin: "Mamma Bear Inc",
-    description: "Developed a professional user interface and experience for a U.S.-based client."
+    description: "Developed the app prototype for Mamma Bear Inc."
   },
 
   {
@@ -28,7 +28,7 @@ export default [
     stack: ["Architecture", "System Design"],
     link: "https://diasynchealth.com/",
     origin: "Aduki",
-    description: "Involved in architecture planning and design for Diasync Health products."
+    description: "Involved in architecture planning and design for Diasync Health System."
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ export default [
     stack: ["Architecture Review", "Chat System"],
     link: "https://misoet.com",
     origin: "Misoet",
-    description: "Created the internal support and chat system, and performed architecture reviews."
+    description: "Created the internal support & chat system, and performed architecture reviews."
   },
   {
     id: 5,
