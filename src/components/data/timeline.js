@@ -1,33 +1,32 @@
 export default [
   {
-    year: "Today",
-    title: "Backend Development",
-    duration: "3+ years",
-    details:
-      "I have been planning, design and development of clean, secure, fast, and scalable backend systems, APIs and payment integrations. I have used both relational & non-relational databases. Tools: MySQL, PostgreSQL, Oracle, MongoDB. " +
-        "" +
-        "I have used NodeJS, Golang and Python to create these systems",
-
+    year: "Feb 2026 – May 2026",
+    title: "Software Engineer (Contract)",
+    duration: "Mamma Bear Inc",
+    details: "Engaged with U.S.-based client on remote contract work, delivering the Mamma Bear Application Prototype. Applied front-end engineering skills to deliver a professional user interface and user experience."
   },
   {
-    year: "Today",
-    title: "Frontend Journey",
-    duration: "3+ years",
-    details:
-      "Ooh, I do some frontend too. 🤫 With web components, React, NextJS as my tools, I create beautiful user interfaces that are fast, smooth and responsively designed",
+    year: "Jan 2025 – May 2025",
+    title: "Backend Developer Intern",
+    duration: "ArchSaint Nexus Group",
+    details: "Developed high-performance backend services using Node.js, Golang, and RESTful API architecture. Optimized PostgreSQL and MongoDB schemas, and implemented Redis caching for improved responsiveness."
   },
   {
-    year: "2021",
-    title: "Bachelor's Degree in Computer Science",
-    duration: "Ongoing",
-    details:
-      "I've navigated the world of computer science, diving into computer architecture, computer science theory, an array of programming languages, mathematics and cryptography concepts, cloud, artificial intelligence... As I wrap up the first chapter, I look forward to cementing my knowledge and skills in this field.",
+    year: "March 2024 - July 2024",
+    title: "Software Engineering Intern",
+    duration: "Mutable Tech Enterprises",
+    details: "Developed scalable backend web applications using Node.js (Express) and Python (Flask/Fast API). Integrated frontend and backend functionalities reducing bugs by 30%."
   },
   {
-    year: "2018",
-    title: "Hello World",
-    duration: "the beginning of time 🫴🏾 😅",
-    details:
-      "Marking my beginning into programming during high school, I wrote my very first 'Hello World' code.(Using HTML 😄) This foundational moment sparked my journey into the world of coding.",
+    year: "Jan 2021 – Dec 2025",
+    title: "BSc Computer Science",
+    duration: "The East African University",
+    details: "Graduated with Second Class Honors (Upper Division). Relevant Coursework: DBMS, Web Design, Cloud Computing, HCI, IoT, Data Structures and Algorithms."
   },
+  {
+    year: "2024 - 2025",
+    title: "Certifications",
+    duration: "AWS & Kubernetes",
+    details: "AWS Certified Cloud Practitioner (Sept 2024 - Dec 2024) and Kubernetes and Cloud Native Associate (KCNA) by Linux Foundation (May 2025 - July 2025)."
+  }
 ];
