@@ -1,85 +1,63 @@
 export default [
   {
-    id: 8,
-    title: "Nouva-Vet App",
-    imgUrl: "/assets/nv-app.png",
-    type: "web app",
-    stack: ["React", "Redux-Toolkit", "Tailwind", "ExpressJs", "PostgreSql", "M-Pesa API"],
-    link: "https://nv-app.netlify.app/",
-    origin: "indie"
-  },
-  {
-    id: 6,
-    title: "Job Board App",
-    imgUrl: "/assets/job-board.png",
-    type: "web app",
-    stack: ["React", "Redux-Toolkit", "Tailwind", "ExpressJs", "PostgreSql"],
-    link: "https://jobboard-bygabu.netlify.app/",
-    origin: "indie"
+    id: 1,
+    title: "Ushirika App",
+    imgUrl: "/assets/ushirikaapp.png",
+    type: "Multi-tenant System",
+    stack: ["React Native", "Next.js", "Supabase", "Monorepo"],
+    link: "https://ushirikaapp.com",
+    origin: "",
+    description: "A comprehensive church management system with a dashboard and a mobile app for members."
   },
   {
     id: 2,
-    title: "Location Tracker App",
-    imgUrl: "/assets/location-tracker.png",
-    type: "web app",
-    stack: ["React", "ExpressJs", "PostgreSql"],
-    link: "https://zidio-49-location-tracker-app.netlify.app",
-    origin: "teamwork"
-  },
-  {
-    id: 1,
-    title: "Article & Blog Summarizer",
-    imgUrl: "/assets/smz.png",
-    type: "saas",
-    stack: ["React", "Redux Toolkit", "Rapid API", "Tailwind"],
-    link: "https://article-and-blog-summarizer.netlify.app/",
-    origin: "indie(cloned)"
+    title: "Mamma Bear Application",
+    imgUrl: "/assets/mammabear.png",
+    type: "Prototype",
+    stack: ["Next.js", "Node.js", "TypeScript", "Tailwind"],
+    link: "https://mammabearapp.vercel.app",
+    origin: "Mamma Bear Inc",
+    description: "Developed a professional user interface and experience for a U.S.-based client."
   },
 
   {
     id: 3,
-    title: "Vet Shop",
-    imgUrl: "/assets/vet-shop.png",
-    type: "Landing page",
-    stack: ["HTML5", "CSS3", "Js"],
-    link: "https://www.myvet.co.ke",
-    origin: "indie"
+    title: "Diasync Health",
+    imgUrl: "/assets/diasync.png",
+    type: "Architecture & Design",
+    stack: ["Architecture", "System Design"],
+    link: "https://diasynchealth.com/",
+    origin: "Aduki",
+    description: "Involved in architecture planning and design for Diasync Health products."
   },
-  // {
-  //   id: 4,
-  //   title: "Developer Porfolio",
-  //   imgUrl: "/assets/portfolio.png",
-  //   type: "web app",
-  //   stack: ["React", "Tailwind", "Vite"],
-  //   link: "http://gabrielgatimu.github.io",
-  //   origin: "indie"
-  // },
+  {
+    id: 4,
+    title: "Misoet Support System",
+    imgUrl: "/assets/misoet.png",
+    type: "Internal System",
+    stack: ["Architecture Review", "Chat System"],
+    link: "https://misoet.com",
+    origin: "Misoet",
+    description: "Created the internal support and chat system, and performed architecture reviews."
+  },
   {
     id: 5,
-    title: "Attendance checker app (Backend)",
-    imgUrl: "/assets/fika-logo.jpg",
-    type: "API endpoints",
-    stack: ["NodeJs", "ExpressJs", "JWT", "PostgresQl"],
-    link: "https://fika-nd51.onrender.com/",
-    origin: "teamwork"
+    title: "ChessEarn Systems",
+    imgUrl: "/assets/chessearn.png",
+    type: "Full-stack System",
+    stack: ["Python", "Flask", "React", "Kubernetes", "Keel"],
+    link: "https://chessearn.com",
+    origin: "Full-stack Engineer",
+    description: "Created the dashboard, backend, and multi-stage deployment using Kubernetes."
   },
-  {
-    id: 7,
-    title: "Admin Dashboard",
-    imgUrl: "/assets/admin-dashboard.png",
-    type: "full-stack",
-    stack: ["React", "MUI", "Redux", "ExpressJS", "MongoDB"],
-    link: "https://github.com/gabrielgatimu/Admin-Dashboard",
-    origin: "indie"
-  },
+  // {
+  //   id: 6,
+  //   title: "Blood-link Application",
+  //   imgUrl: "/assets/blood-link.png",
+  //   type: "Full-stack App",
+  //   stack: ["React Native", "Node.js", "Next.js"],
+  //   link: "https://github.com/gabrielgatimu",
+  //   origin: "Academic Project",
+  //   description: "Built mobile app, backend, and admin dashboard for blood donation management."
+  // }
 ];
-
-
-const extraData = [
-  {
-    zidio: `Collaborated in a team of 5 developers to create a location tracking app. 
-    I had the task to create the app's API endpoints to be consumed by the client app.
-    It was a great experience as I got to sharpen my server-side skills and concepts such as working with document database, MongoDB, API authentication, data modelling, writing high-quality code and deploying applications to production environments 
-    App link: https://zidio-49-location-tracker-app.netlify.app/`
-  }
-]
