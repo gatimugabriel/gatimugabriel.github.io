@@ -15,19 +15,21 @@ function Contact() {
             Get In Touch
           </h2>
           <p className="text-stone-600 dark:text-stone-400 text-center text-lg">
-            Looking to collaborate or have an open role? Let's talk.
+            Looking to collaborate or have an open role? Let&apos;s talk.
           </p>
         </motion.div>
-        
+
         <motion.form
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.5, delay: 0.1, ease: [0.23, 1, 0.32, 1] }}
-          action="https://getform.io/f/194f316b-47d1-44db-942e-90cec1859e56"
+          action="https://api.web3forms.com/submit"
           method="POST"
           className="flex flex-col gap-4 bg-stone-50 dark:bg-stone-900/50 p-6 md:p-8 rounded-2xl border border-stone-200 dark:border-stone-800"
         >
+          {/* safe public key */}
+          <input type="hidden" name="access_key" value="8def9868-d094-4545-81cf-05649ce2d218" />
           <input
             type="text"
             name="name"
@@ -57,6 +59,28 @@ function Contact() {
           </button>
         </motion.form>
       </div>
+
+      {/* PGP Section */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-50px" }}
+        transition={{ duration: 0.5, delay: 0.2, ease: [0.23, 1, 0.32, 1] }}
+        className="w-full md:w-8/12 lg:w-6/12 mt-12 text-center"
+      >
+        <h3 className="text-xl font-semibold mb-2">Secure Communication</h3>
+        <p className="text-stone-600 dark:text-stone-400 mb-4 text-sm">
+          If you need to send sensitive information, you can encrypt your message using my public PGP key.
+        </p>
+        <div className="bg-stone-100 dark:bg-stone-900/50 p-4 rounded-xl border border-stone-200 dark:border-stone-800 font-mono text-xs text-left overflow-x-auto text-stone-500 selection:bg-accent/20">
+          <pre>
+            {`-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+
+-----END PGP PUBLIC KEY BLOCK-----`}
+          </pre>
+        </div>
+      </motion.div>
     </div>
   );
 }
