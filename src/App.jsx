@@ -1,12 +1,14 @@
-import Intro from "./components/Intro";
-import Contact from "./components/Contact";
-import Timeline from "./components/Timeline";
-import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
-import { useState, useEffect } from "react";
-import Skills from "./components/Skills.jsx";
-import { Moon, Sun } from "lucide-react";
 import { motion } from "framer-motion";
+import { Moon, Sun } from "lucide-react";
+import { useEffect, useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import BlogSearchNav from "./components/BlogSearchNav";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
+import Home from "./pages/Home";
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -32,7 +34,10 @@ function App() {
   }, [theme]);
 
   return (
-    <>
+    <BrowserRouter>
+      <ScrollToTop />
+      <Navbar />
+
       <button
         type="button"
         onClick={handleThemeToggle}
@@ -51,18 +56,20 @@ function App() {
           )}
         </motion.div>
       </button>
-      
+
       <div className="min-h-screen bg-[var(--background)] text-[var(--foreground)] font-inter transition-colors duration-300 selection:bg-accent/30">
-        <main className="max-w-5xl w-[90%] mx-auto">
-          <Intro />
-          <Portfolio />
-          <Skills />
-          <Timeline />
-          <Contact />
+        <main className="max-w-5xl w-[90%] mx-auto relative pt-16">
+          <BlogSearchNav />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
+            <Route path="/tags/:tag" element={<Blog />} />
+          </Routes>
           <Footer />
         </main>
       </div>
-    </>
+    </BrowserRouter>
   );
 }
 

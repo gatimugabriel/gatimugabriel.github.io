@@ -42,13 +42,13 @@ export default [
   },
   {
     id: 5,
-    title: "ChessEarn Systems",
+    title: "ChessEarn Backend Systems",
     imgUrl: "/assets/chessearn.png",
     type: "Full-stack System",
     stack: ["Python", "Flask", "React", "Kubernetes", "Keel"],
     link: "https://chessearn.com",
     origin: "Full-stack Engineer",
-    description: "Created the dashboard, backend, and multi-stage deployment using Kubernetes."
+    description: "Created the backend, dashbord and did full-stack deployment using Kubernetes."
   },
   // {
   //   id: 6,

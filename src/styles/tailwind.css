@@ -36,3 +36,14 @@
     @apply active:scale-[0.97] transition-transform duration-150 ease-out-fluid;
   }
 }
+
+@keyframes fill-linear {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.scroll-progress-bar {
+  transform-origin: left;
+  animation: fill-linear linear;
+  animation-timeline: scroll();
+}
