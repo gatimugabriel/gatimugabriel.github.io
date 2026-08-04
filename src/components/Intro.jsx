@@ -18,7 +18,7 @@ function Intro() {
   }, []);
 
   return (
-    <div className="relative h-[65vh] flex items-center justify-start flex-col text-center overflow-hidden rounded-3xl pt-20 md:mt-4 bg-stone-0 dark:bg-stone-950 dark:border-none border-none border-stone-200 dark:border-stone-800">
+    <div className="relative h-fit mb-32 flex items-center justify-start flex-col text-center overflow-hidden rounded-3xl pt-20 md:mt-4 bg-stone-0 dark:bg-stone-950 dark:border-none border-none border-stone-200 dark:border-stone-800">
 
       {/* Spotlight Effect */}
       <div
@@ -55,7 +55,7 @@ function Intro() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2, ease: [0.23, 1, 0.32, 1] }}
-          className="text-xl md:text-2xl mb-8 font-medium text-stone-600 dark:text-stone-400 max-w-2xl mx-auto"
+          className="text-md md:text-xl mb-8 font-medium text-stone-600 dark:text-stone-400 max-w-2xl mx-auto"
         >
           Software Engineer building performant, scalable, and resilient systems.
         </motion.p>

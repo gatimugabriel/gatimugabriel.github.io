@@ -1,4 +1,5 @@
 import Intro from "../components/Intro";
+import EngineeringWork from "../components/EngineeringWork";
 import Portfolio from "../components/Portfolio";
 import Skills from "../components/Skills";
 import Timeline from "../components/Timeline";
@@ -8,9 +9,10 @@ function Home() {
   return (
     <>
       <Intro />
+      <EngineeringWork />
       <Portfolio />
-      <Skills />
       <Timeline />
+      <Skills />
       <Contact />
     </>
   );

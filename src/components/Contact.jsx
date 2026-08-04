@@ -26,7 +26,7 @@ function Contact() {
           transition={{ duration: 0.5, delay: 0.1, ease: [0.23, 1, 0.32, 1] }}
           action="https://api.web3forms.com/submit"
           method="POST"
-          className="flex flex-col gap-4 bg-stone-50 dark:bg-stone-900/50 p-6 md:p-8 rounded-2xl border border-stone-200 dark:border-stone-800"
+          className="flex flex-col gap-4 bg-stone-50 dark:bg-stone-900/50 p-2 py-4 md:p-4  rounded-2xl border border-stone-200 dark:border-stone-800"
         >
           {/* safe public key */}
           <input type="hidden" name="access_key" value="8def9868-d094-4545-81cf-05649ce2d218" />
@@ -70,7 +70,7 @@ function Contact() {
       >
         <h3 className="text-xl font-semibold mb-2">Secure Communication</h3>
         <p className="text-stone-600 dark:text-stone-400 mb-4 text-sm">
-          If you need to send sensitive information, you can encrypt your message using my public PGP key.
+          If you need to send sensitive information, you can encrypt your message using my public PGP key and then paste the encrypted message in the above text box
         </p>
         <div className="bg-stone-100 dark:bg-stone-900/50 p-4 rounded-xl border border-stone-200 dark:border-stone-800 font-mono text-xs text-left overflow-x-auto text-stone-500 selection:bg-accent/20">
           <pre>
